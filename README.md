@@ -25,8 +25,6 @@ SUPER_SECRET=YOUR_SECRET_KEY
 ```
 (replace `YOUR_PASSWORD` with your actual password and `YOUR_SECRET_KEY` with a key of your choosing.)
 
-Alternatively, you can rename the provided `.env.example` file to `.env`.
-
 Type `mysql -u root -p` to access the MySQL CLI using your password.
 
 In the MySQL CLI, type `create database sayang;` to create a database in MySQL.
@@ -42,17 +40,5 @@ Run `node model/database.js` in your **TERMINAL**, in the **project** folder (no
 - Client is configured so all API calls will be proxied to port 5000 for a smoother development experience. Yay!
 - You can test your client app in `http://localhost:3000`
 - You can test your API in `http://localhost:5000`
-
-### Installing Vanilla Boostrap
-
-## Basic Requirement
-
-### 1. Database Schema
-to add
-### 2. API route Plan
-to add
-
-### 3. User Flow Chart Diagram
-to add
 
 _This is a student project that was created at [CodeOp](http://codeop.tech), a full stack development bootcamp 03 in Malaysia._
